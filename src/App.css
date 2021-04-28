@@ -7,6 +7,19 @@
   pointer-events: none;
 }
 
+div {
+  text-align: center;
+}
+
+div>h1 {
+  text-align: center;
+}
+
+div>img {
+  text-align: center;
+  height: 70vh;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -32,6 +45,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
