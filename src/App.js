@@ -5,7 +5,7 @@ import BannerComponent from './banner.component';
 function App() {
   return (
     <div >
-      <BannerComponent val="hritik" />
+      <BannerComponent val="bn gyi baat" />
     </div>
   );
 }

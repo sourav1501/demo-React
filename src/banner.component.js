@@ -1,10 +1,10 @@
 import tenor from './tenor.gif';
-export default function BannerComponent({ val }) {
-    alert(val);
+export default function BannerComponent({ text }) {
+    alert(text);
     return (
         <div>
             <h1>
-                Moj Kradi Bete
+                Moj Kradi Bete {text}
             </h1>
             <img height="300px" src={tenor} alt="logo" />
         </div>
