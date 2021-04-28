@@ -5,7 +5,7 @@ import BannerComponent from './banner.component';
 function App() {
   return (
     <div >
-      <BannerComponent />
+      <BannerComponent text="Check karte hai" />
     </div>
   );
 }
