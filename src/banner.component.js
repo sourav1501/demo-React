@@ -1,5 +1,6 @@
 import tenor from './tenor.gif';
-export default function BannerComponent() {
+export default function BannerComponent({ val }) {
+    alert(val);
     return (
         <div>
             <h1>
