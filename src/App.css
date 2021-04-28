@@ -17,10 +17,7 @@ div>h1 {
 
 div>img {
   text-align: center;
-  height: 70vh;
-  width:50%;
-  border: 2px solid black;
-   
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
